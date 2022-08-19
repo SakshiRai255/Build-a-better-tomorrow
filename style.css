@@ -1,0 +1,99 @@
+/*-----CSS Reset -------*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/*-----Body-Image-------*/
+
+body {
+  background-image: url("img/bg.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+/*-------- Navbar-Section------ */
+
+#navbar {
+  display: flex;
+  background-color: #000;
+}
+
+.logo {
+  position: relative;
+  left: 5vw;
+}
+.logo img {
+  height: 40px;
+  width: 100px;
+  margin-top: 15px;
+}
+
+#verticalborder {
+  color: whitesmoke;
+  border-left: 1px solid whitesmoke;
+  margin-left: 100px;
+  margin-top: 12px;
+  height: 40px;
+}
+/*---------- Menu-List------- */
+#menu-list {
+  display: flex;
+  position: relative;
+  left: 2vw;
+  list-style: none;
+  justify-content: center;
+  margin: 17px 0px;
+}
+
+.list-item {
+  color: whitesmoke;
+  margin: 10px 15px;
+}
+.list-item a {
+  font-size: 15px;
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: 'Righteous', cursive;
+}
+/*------------- Button---------*/
+.button {
+  position: relative;
+  left: 37vw;
+}
+.btn1 {
+  background-color: rgb(201, 19, 176);
+  color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  margin: 15px auto;
+  font-size: 15px;
+  padding: 10px 20px;
+}
+
+/*------------- Heading-Paragraph-Button---------*/
+#heading-section {
+  position: absolute;
+  left: 25vw;
+  top: 25vh;
+  text-align: center;
+  width: 45vw;
+}
+#heading-section h1 {
+  font-family: 'Righteous', cursive;
+  color: whitesmoke;
+  font-size: 60px;
+}
+#heading-section p {
+  color: whitesmoke;
+  font-size: 25px;
+}
+.btn2 {
+  background-color: rgb(201, 19, 176);
+  color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  margin: 45px auto;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+}
