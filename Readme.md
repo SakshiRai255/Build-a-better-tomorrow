@@ -4,6 +4,6 @@
 - HTML
 - CSS
 
-----
-
+##  [Deployed-link](https://my-crypto-landing-page.netlify.app/)
+---
 ![Image](img/Screenshot%20(359).png)
